@@ -1,0 +1,15 @@
+ros-nr-noetic-hdf5-map-io (1.0.1-2focal) focal; urgency=high
+
+  * fix: find_library lvr2, since this is missing in LVR2Config.cmake
+  * use new hdf5 structure compatible to the datasets in https://github.com/uos/pluto_robot
+  * use HighFive from lvr2, add lvr2 as dependency and removed HighFive gitmodule definition
+
+ -- Sebastian Pütz <spuetz@uos.de>  Wed, 11 Nov 2020 00:00:00 -0000
+
+ros-nr-noetic-hdf5-map-io (1.0.0-2focal) focal; urgency=high
+
+  * release version 1.0.0
+
+ -- Sebastian Pütz <spuetz@uos.de>  Sun, 26 Apr 2020 00:00:00 -0000
+
+
